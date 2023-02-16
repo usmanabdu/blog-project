@@ -1,3 +1,11 @@
 .navbar {
     gap: 3em;
+    
+}
+.container {
+    margin-bottom: 450px;
+}
+
+.secound {
+    color: white;
 }
