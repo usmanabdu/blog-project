@@ -1,48 +1,48 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Login</title>
+    <title>Sign Up</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
+
     <style>
-      body {
-          background-color: rgb(92, 91, 91);
-      }
-            
+        body {
+            background-color: rgb(92, 91, 91);
+        }
+        
+        
     </style>
-  
-  
-  </head>
+
+</head>
   <body>
-    <div class="container mt-5">
+    <div class="container mt-5 " >
       <div class="row justify-content-center">
-        <div class="col-lg-6 col-md-8">
-          <!-- Login Form -->
+        <div class="col-lg-6 col-md-8 ">
+          <!-- Sign Up Form -->
           <div class="card">
             <div class="card-header bg-dark text-white">
-              Login
+              Sign Up
             </div>
             <div class="card-body">
               <form action="#" method="post">
                 <div class="form-group">
-                  <label for="login-email">Email</label>
-                  <input type="email" class="form-control" id="login-email" name="email" required>
+                  <label for="signup-name">Full Name</label>
+                  <input type="text" class="form-control" id="signup-name" name="name" required>
                 </div>
                 <div class="form-group">
-                  <label for="login-password">Password</label>
-                  <input type="password" class="form-control" id="login-password" name="password" required>
-                  
-                  <span>create account? <a class=""  href="#" >SIGN UP</a></span><br><br><br>
-                  <a href="#">Forgot password?</a>
+                  <label for="signup-email">Email</label>
+                  <input type="email" class="form-control" id="signup-email" name="email" required>
                 </div>
-                <button type="submit" class="btn btn-secondary">Log In</button>
+                <div class="form-group">
+                  <label for="signup-password">Password</label>
+                  <input type="password" class="form-control" id="signup-password" name="password" required>
+                  <span>already have an account? <a class=""  href="#" >Login</a></span>
+                </div>
+                <button type="submit" class="btn btn-secondary">Sign Up</button>
               </form>
             </div>
-          </div>
-          <div class="text-center mt-3">
           </div>
         </div>
       </div>
