@@ -6,11 +6,19 @@ auth
 .createUserWithEmailAndPassword(email,password)
 .then((userobject)=>{
     if(!userobject.user.emailverified) {
+
         console.log("you need to verified your email")
     }
 })
 .catch((error)=>{
 console.log(error)
+
+        console.log("your email is verified")
+    }
+})
+.catch((error)=>{
+alert(error)
+
 })
 }
 form.addEventListener("submit",(e)=>{
@@ -26,5 +34,6 @@ form.addEventListener("submit",(e)=>{
 
 
 })
+
 
 
