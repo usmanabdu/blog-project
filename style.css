@@ -9,3 +9,35 @@
 .secound {
     color: white;
 }
+
+.py-3 {
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: larger;
+}
+
+.fa-brands {
+    font-size: 2rem;
+    /* margin-left: 20px; */
+    color: white;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
