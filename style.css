@@ -104,13 +104,13 @@ section{
     font-size: 0.9rem;
     font-weight: 500;
     text-transform: uppercase;
-    color: whitesmoke;
+    color: rgb(31, 30, 30);
 }
 
 .post-title{
     font-size: 1.3rem;
     font-weight: 600;
-    color: whitesmoke;
+    color: rgb(41, 40, 40);
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
