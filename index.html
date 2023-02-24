@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 
+     <!-- Box-icon -->
+     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
@@ -41,15 +45,132 @@
     </nav>
 
     <!-- Main content -->
-    <div class="container mt-5">
+    <div class="container py-0 mt-5">
       <img src="featured-1.jpg" class="img-fluid" alt="">
       <h1>Welcome to my Blog</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac augue vitae quam laoreet varius vel sed dolor. Proin malesuada mauris sed libero congue commodo. Fusce id odio enim. Sed non turpis commodo, malesuada quam non, cursus urna. Nullam ullamcorper lectus at elit fringilla fringilla. Vivamus hendrerit nisl in urna efficitur sagittis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque vitae ultricies leo. Sed dignissim risus lacus, vel scelerisque augue varius in. Nunc id nulla id purus iaculis facilisis eget vel lacus.</p>
       <p>Morbi eget venenatis odio. Sed ullamcorper dapibus libero, ut fermentum eros malesuada nec. In a massa tellus. Praesent volutpat, mauris non bibendum aliquam, lorem nisi maximus turpis, et semper nulla elit at ex. Nam molestie elementum purus, ut feugiat velit sagittis et. Fusce et aliquet dui. Sed ullamcorper justo vitae felis auctor, vel consectetur leo laoreet. Nam malesuada velit id elit tincidunt congue.</p>
     </div>
-    <!-- the end of home page -->
+    
     
     <!-- the start of blog page -->
+    <div class="post-filter ">
+      <span class="filter-item active-filter" data-filter="all">All</span>
+      <span class="filter-item" data-filter="tech">Tech</span>
+      <span class="filter-item" data-filter="food">Food</span>
+      <span class="filter-item" data-filter="news">News</span>
+  </div>
+
+  <div class="post container">
+    <!-- Post 1 -->
+    <div class="post-box tech">
+        <img src="images/img1.jpg" alt="" class="post-img">
+        <h2 class="category">Tech</h2>
+        <a href="#" class="post-title">How to create the best UI with Figma</a>
+        <span class="post-date">12 Feb 2022</span>
+        <p class="post-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique, rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae iste architecto. Corporis, voluptates.</p>
+        <div class="profile">
+            <img src="images/testi1.jpg" alt="" class="profile-img">
+            <span class="profile-name">MKHB</span>
+        </div>
+    </div>
+    <!-- Post 2 -->
+    <div class="post-box food">
+        <img src="images/img2.jpg" alt="" class="post-img">
+        <h2 class="category">Tech</h2>
+        <a href="#" class="post-title">How to create the best UI with Figma</a>
+        <span class="post-date">12 Feb 2022</span>
+        <p class="post-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique, rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae iste architecto. Corporis, voluptates.</p>
+        <div class="profile">
+            <img src="images/testi1.jpg" alt="" class="profile-img">
+            <span class="profile-name">MKHB</span>
+        </div>
+    </div>
+    <!-- Post 3 -->
+    <div class="post-box food">
+        <img src="images/img3.jpg" alt="" class="post-img">
+        <h2 class="category">Food</h2>
+        <a href="#" class="post-title">How to create the best UI with Figma</a>
+        <span class="post-date">12 Feb 2022</span>
+        <p class="post-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique, rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae iste architecto. Corporis, voluptates.</p>
+        <div class="profile">
+            <img src="images/testi1.jpg" alt="" class="profile-img">
+            <span class="profile-name">MKHB</span>
+        </div>
+    </div>
+    <!-- Post 4 -->
+    <div class="post-box news">
+        <img src="images/img4.jpg" alt="" class="post-img">
+        <h2 class="category">Tech</h2>
+        <a href="#" class="post-title">How to create the best UI with Figma</a>
+        <span class="post-date">12 Feb 2022</span>
+        <p class="post-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique, rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae iste architecto. Corporis, voluptates.</p>
+        <div class="profile">
+            <img src="images/testi1.jpg" alt="" class="profile-img">
+            <span class="profile-name">MKHB</span>
+        </div>
+    </div>
+    <!-- Post 5 -->
+    <div class="post-box tech">
+        <img src="images/img5.jpg" alt="" class="post-img">
+        <h2 class="category">Tech</h2>
+        <a href="#" class="post-title">How to create the best UI with Figma</a>
+        <span class="post-date">12 Feb 2022</span>
+        <p class="post-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique, rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae iste architecto. Corporis, voluptates.</p>
+        <div class="profile">
+            <img src="images/testi1.jpg" alt="" class="profile-img">
+            <span class="profile-name">MKHB</span>
+        </div>
+    </div>
+    <!-- Post 6 -->
+    <div class="post-box news">
+        <img src="images/img4.jpg" alt="" class="post-img">
+        <h2 class="category">News</h2>
+        <a href="#" class="post-title">How to create the best UI with Figma</a>
+        <span class="post-date">12 Feb 2022</span>
+        <p class="post-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique, rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae iste architecto. Corporis, voluptates.</p>
+        <div class="profile">
+            <img src="images/testi1.jpg" alt="" class="profile-img">
+            <span class="profile-name">MKHB</span>
+        </div>
+    </div>
+    <!-- Post 7 -->
+    <div class="post-box tech">
+        <img src="images/img7.jpg" alt="" class="post-img">
+        <h2 class="category">Tech</h2>
+        <a href="#" class="post-title">How to create the best UI with Figma</a>
+        <span class="post-date">12 Feb 2022</span>
+        <p class="post-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique, rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae iste architecto. Corporis, voluptates.</p>
+        <div class="profile">
+            <img src="images/testi1.jpg" alt="" class="profile-img">
+            <span class="profile-name">MKHB</span>
+        </div>
+    </div>
+    <!-- Post 1 -->
+    <div class="post-box news">
+        <img src="images/img8.jpg" alt="" class="post-img">
+        <h2 class="category">News</h2>
+        <a href="#" class="post-title">How to create the best UI with Figma</a>
+        <span class="post-date">12 Feb 2022</span>
+        <p class="post-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique, rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae iste architecto. Corporis, voluptates.</p>
+        <div class="profile">
+            <img src="images/testi1.jpg" alt="" class="profile-img">
+            <span class="profile-name">MKHB</span>
+        </div>
+    </div>
+    <!-- Post 9 -->
+    <div class="post-box food">
+        <img src="images/img10.jpg" alt="" class="post-img">
+        <h2 class="category">Food</h2>
+        <a href="#" class="post-title">How to create the best UI with Figma</a>
+        <span class="post-date">12 Feb 2022</span>
+        <p class="post-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique, rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae iste architecto. Corporis, voluptates.</p>
+        <div class="profile">
+            <img src="images/testi1.jpg" alt="" class="profile-img">
+            <span class="profile-name">MKHB</span>
+        </div>
+    </div>
+</div>
     <!-- the end of blog page -->
     
     
@@ -83,7 +204,7 @@
 
 
     <footer class="bg-dark py-3">
-      <div class=" container mt-5 footer-left">
+      <div class=" container-sm mt-5 footer-left">
         <h2>MY BLOG</h2><br>
         <li>CONTACT US</li><br>
         <li>myblog@gmail.com</li><br>
@@ -91,7 +212,7 @@
           nairobi,kenya</li>
       </div>
 
-      <div class="container mt-5 footer-right">
+      <div class="container-sm mt-5 footer-right">
         <h5>SOCIALIZE WITH SOCIAL</h5><br><br>
         <div class="icons">
           <a href="#"><i class="fa-brands fa-facebook"></i></a>
@@ -110,4 +231,5 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script> 
+    <script src="main.js"></script>
 </body>    
