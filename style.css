@@ -1,10 +1,20 @@
 .navbar {
-    gap: 3em;
+    gap: 4em;
     
 }
-.container {
-    margin: 50px;
+.container-xl {
+    /* margin: 50px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
+
+.recomended {
+    display: flex;
+    justify-content: start;
+    align-items: baseline;
+}
+
 
 .secound {
     color: white;
@@ -153,4 +163,10 @@ section{
 .profile-name{
     font-size: .8rem;
     font-weight: 500;
+}
+
+
+/* contact */
+.contact {
+    margin-bottom: 80px;
 }
