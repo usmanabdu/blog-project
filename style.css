@@ -170,3 +170,8 @@ section{
 .contact {
     margin-bottom: 80px;
 }
+
+/* Recent upload */
+.recent {
+    display: flex;
+}
