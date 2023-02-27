@@ -147,8 +147,7 @@ section{
 
 .profile{
     display: flex;
-    align-items: center;
-    gap: 10px;
+    justify-content: space-between;
 }
 
 .profile-img{
@@ -163,6 +162,7 @@ section{
 .profile-name{
     font-size: .8rem;
     font-weight: 500;
+    justify-self: flex-start;
 }
 
 
@@ -174,4 +174,17 @@ section{
 /* Recent upload */
 .recent {
     display: flex;
+}
+
+/*thumbs button  */
+.thumbs-up-button, .thumbs-down-button {
+    background-color: #fff;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.thumbs-up-button:hover, .thumbs-down-button:hover {
+    color: blue;
+    background-color: bisque;
 }
