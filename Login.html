@@ -44,7 +44,25 @@
                 </form>
               </div>
             </div>
+<<<<<<< HEAD
             <div class="text-center mt-3">
+=======
+            <div class="card-body">
+              <form action="#" method="post">
+                <div class="form-group">
+                  <label for="login-email">Email</label>
+                  <input type="email" class="form-control" id="login-email" name="email" required>
+                  <br>
+                  <label for="login-password">Password</label>
+                  <input type="password" class="form-control" id="login-password" name="password" required>
+                </div>
+                <div class="form-group">
+                  <span>create account? <a class=""  href="sign up.html" >SIGN UP</a></span><br><br><br>
+                  <a href="resetpassword.html">Forgot password?</a>
+                </div>
+                <button type="submit" id="signUp" class="btn btn-secondary">Log In</button>
+              </form>
+>>>>>>> 3ec310f1545fb9e20f23461ed95cc19a6eaa385d
             </div>
           </div>
         </div>
@@ -72,8 +90,59 @@
 
     <script src="log.js"></script>
     <!-- Bootstrap JavaScript -->
+<<<<<<< HEAD
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ></script>
+=======
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVpaDubnGj3MhgxhNCafbOQpC2b4WY7toWQCjThovy4X"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <!-- <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js";
+      import { getDatabase } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-database.js";
+      import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-auth.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyCyXd954oQFrpFBqyLpwJF7yGQd8Ws_tiQ",
+        authDomain: "authentication-app-7e64d.firebaseapp.com",
+        databaseURL: "https://authentication-app-7e64d-default-rtdb.firebaseio.com",
+        projectId: "authentication-app-7e64d",
+        storageBucket: "authentication-app-7e64d.appspot.com",
+        messagingSenderId: "99830157223",
+        appId: "1:99830157223:web:84523ce5c1a37492d2b082"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const database = getDatabase(app);
+      const auth = getAuth();
+
+      signUp.addEventListener('click',(e) => {
+
+
+        createUserWithEmailAndPassword(auth, email, password)
+          .then((userCredential) => {
+            // Signed in 
+            const user = userCredential.user;
+            // ...
+          })
+          .catch((error) => {
+            const errorCode = error.code;
+            const errorMessage = error.message;
+            // ..
+          });
+        }) -->
+
+
+    </script>
+    <script src="firebase.js"></script>
+    <script src="Login.js"></script>
+>>>>>>> 3ec310f1545fb9e20f23461ed95cc19a6eaa385d
   </body>
 </html>
