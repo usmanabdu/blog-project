@@ -1,12 +1,25 @@
 .navbar {
-    gap: 4em;
-    
+    gap: 4em;    
 }
-.container-xl {
+.btn.btn-outline-secondary {
+    color: #fff;
+}
+.nav-link {
+    font-size: larger;
+}
+
+
+.container.py-0.mt-5  {
     /* margin: 50px; */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    line-height: 33px;
+}
+
+.img-fluid {
+    height: 400px;
+
 }
 
 .recomended {

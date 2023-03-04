@@ -15,7 +15,7 @@ console.log(error)
 
         console.log("your email is verified")
     }
-})
+)
 .catch((error)=>{
 alert(error)
 
